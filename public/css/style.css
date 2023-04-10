@@ -5893,7 +5893,7 @@ a.close.disabled {
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right {
-  z-index: 1;
+  z-index: 0;
   opacity: 1;
 }
 
@@ -5916,7 +5916,7 @@ a.close.disabled {
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5972,7 +5972,7 @@ a.close.disabled {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 15;
+  z-index: 0;
   display: flex;
   justify-content: center;
   padding-left: 0;
@@ -9708,6 +9708,14 @@ a.text-dark:hover, a.text-dark:focus {
   top: 0;
   bottom: 0;
   z-index: 40;
+}
+
+.back-to-iframe-scanner {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 40;
+  width: 100%;
 }
 
 .back-to-times {

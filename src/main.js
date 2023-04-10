@@ -101,6 +101,10 @@ export default app;
         }
         button.parent().parent().find('input').val(newVal);
     });
+
+    $('.dce-btn-close').on('click', function () {
+       alert();
+    });
     
 })(jQuery);
 
